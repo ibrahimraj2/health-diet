@@ -4,8 +4,55 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Health Diet</title>
+      <!-- google font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+      <!-- daisyUI cdn -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+
+      <!-- font family -->
+       <style>
+            
+            .montserrat{
+              font-family: "Montserrat", serif;
+              font-optical-sizing: auto;
+              font-weight: 400;
+              font-style: normal;
+            }
+            .bg-hero{
+                  background-image: url(images/shapes/Group\ 8450.png);
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: contain;
+
+            }
+       </style>
 </head>
-<body>
+<body class="montserrat">
+
+      <header>
+            <div class="container mx-auto">
+            <div class="flex-none lg:flex justify-center items-center">
+                  <!-- content -->
+                   <div class="lg:flex-1 px-2 lg:px-12">
+                        <h1 class="text-3xl py-8 lg:py-0 lg:text-6xl font-bold text-[#575757]"><span class="text-[#FBA24F]">Skip</span> The Diet, <br class="hidden sm:block"> Just Eat Healthy <br class="hidden sm:block">
+                              With Food Network</h1>
+                              <p class="text-gray-500 py-5 lg:py-20">Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
+
+                                    <div><button class="btn rounded-full bg-gradient-to-r from-[#FBA24F] to-[#FF1E1E] text-white py-4 px-5">Order Food</button></div>
+                   </div>
+
+                  <!-- image  -->
+                   <div class="lg:flex-1 bg-hero">
+                        <img src="images/male/heroimg1.png" alt="" class="lg:max-w-full w-5/6 lg:relative lg:bottom-5">
+                   </div>
+
+            </div>
+      </div>
+      </header>
       
 </body>
 </html>
